@@ -1,0 +1,178 @@
+body {
+    background-color: #222222;
+    color: white;
+}
+
+/*
+* {
+    outline: 1px solid red;
+}
+*/
+.container {
+    width: 1040px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+header{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+nav {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between
+}
+
+footer {
+    background-color: #131313;
+    color: white;
+}
+
+.advantages {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: white;
+    background-color: #131313;
+    display: flex;
+    justify-content: space-around;
+}
+
+.content {
+    background-color: white;
+    color: black;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.table {
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.btn {
+    width: 195px;
+    text-transform: uppercase;
+    padding: 10px 25px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 50px;
+    border: none;
+}
+.btn-yellow {
+    background-color: #feca30;
+}
+
+.btn-yellow:hover {
+ 	background-color: white;
+}
+
+.btn-yellow:active {
+background-color: #c1a300;
+}
+
+
+.btn::after {
+   content: "";
+   position: absolute;
+   right: 20px;
+   top: 17px;
+   width: 19px;
+   height: 16px;
+   background-image: url(../img/right-arrow-dark.png);
+   background-repeat: no-repeat;
+   background-position: 0 0;
+}
+
+
+.footer-menu {
+    display: flex;
+    list-style: none;
+    margin-bottom: 300px;
+    margin-right: 30px;
+}
+.footer-submenu{}
+
+.top-menu  {
+    display: flex;
+    list-style: none;
+    color: #d4d4d4;
+}
+
+.top-menu li {
+    padding: 15px;
+    color: #d4d4d4;
+}
+
+.top-menu li:hover {
+    
+    color: white;
+}
+.about-us {
+    display: flex;
+    justify-content: center;
+}
+
+.left-block,
+.right-block {
+    display: flex;
+}
+
+.right-block div {
+    padding: 15px;
+}
+.untable{
+    width: 100%;
+    border-collapse: collapse;
+}
+.untable td {
+    
+    width: 25%;
+}
+
+.table-header {
+    background-color: #111111;
+}
+
+.time-info {
+    width: 440px;
+}
+
+h2 {
+    width: 180px;
+    color: yellow
+}
+
+.link-flight {
+    color: yellow
+}
+
+.about-us-content {
+    width: 300px;
+}
+
+.block-content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.copyright {
+   margin-top: auto;
+   color: #555555;
+}
+
+.mapes{
+    display: flex;    
+    justify-content: space-between ;
+    
+}
+
+.mapes div{
+    width: 440px;
+}
+
+tr{
+    border-bottom:1px solid #555555;
+}
